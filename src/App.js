@@ -7,7 +7,7 @@ state = { astros: []}
 render(){
   return (
     <div>
-    {this.state.astros.map(astr => astr.name)}
+    {this.state.astros.map(astr => <p> {astr.name} </p>) }
     </div>
   )
 
